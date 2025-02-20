@@ -1,0 +1,135 @@
+body{
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+
+header{
+	position: fixed;
+	top: 0;
+	min-height: 75px;
+	padding: 0px 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#header-img{
+	width: 100%;
+	padding-right: 20%;
+}
+header ul{
+	width: 35vw;
+	margin:2px 50%;
+	display: flex;
+	
+	justify-content: space-around;
+}
+header ul li{
+	display: list-item;
+	padding-left: 100px;
+	margin-left: 50%;
+	list-style-type: none;
+}
+
+header ul li a{
+	color:white;
+	text-decoration: none;
+}
+main{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+main h1{
+	text-align: center;
+}
+main label{
+	margin: 5px 42%;
+	width: 20%;
+	height:30px;
+}
+.submit{
+	width: 10%;
+	height:30px;
+	margin: 30px 45%;
+	background-color: chocolate;
+	color: white;
+}
+main .infomation{
+	margin: 10px 30%;
+	font-size: 18px;
+}
+main .infomation li a{
+	color:white;
+	text-decoration: none;
+}
+main video{
+	margin: 10px auto;
+	object-fit: cover; 
+	z-index: -1; 
+	width: 100%; 
+	height: 100%;
+}
+.download{
+	font-size:25px;
+}
+.far{
+	background-color: aqua;
+}
+#download{
+	display: flex;
+	justify-content: space-around;
+}
+.download-styles li{
+	margin: 10px 0;
+	list-style-type: none;
+}
+.download-styles li a{
+	color: aliceblue;
+	text-decoration: none;
+}
+footer{
+	width: 100%;
+	border-color: white;
+	border: solid;
+}
+.footer-info{
+	width: 30%;
+	margin-left: 80%;
+}
+.footer-info-list{
+	display: flex;
+}
+.footer-info-list li{
+	margin: 2px 15px;
+}
+.footer-info-text{
+	margin-right: 15px;
+}
+.footer-info-text p{
+	margin:10px;
+	text-align: end;
+}
+.footer-info-list li a{
+	color: white;
+	text-decoration: none;
+}
+#QR{
+	width: 15%;
+	height:15% ;
+	padding-right: 20%;
+}
+
+nav-bar{
+ display: flex;
+   position: fixed;
+   top:0;
+}
+nav{
+  position: fixed;
+   top:0;
+}
+@media(min-whide:100px){
+  *{
+    color:#ffb;
+  }
+}

@@ -1,0 +1,57 @@
+body{
+	width: 100%;
+	background-color:#1b1b32;
+	color: aliceblue;
+	position:absolute;
+	font-size: 20px;
+}
+form{
+	width: 80vw;
+	margin: 0 auto;
+	padding-bottom: 2em;
+	max-width: 500px;
+	min-width: 300px;
+}
+h1,p{
+	text-align: center;
+	font-size: 30px;
+	font-family: 隶书;
+}
+img{
+	width: 30vw;
+	margin: auto 35%;
+	border-radius: 5%;
+}
+.questionnaire{
+	font-family: 隶书;
+	font-size: 80%;
+	margin:20px 10%;
+	border: none;
+	border-bottom: 3px solid #3b3b4f;
+}
+legend{
+	margin-left:29%;
+}
+.questionnaire .question{
+	display: block;
+	margin: 0.5rem 20%;
+	padding: 0 10% 0 10%;
+}
+.questionnaire .Regional{
+	margin-left: 45%;
+}
+.questionnaire .multiple{
+	font-family: 隶书;
+	font-size: 80%;
+	margin-left: 50%;
+}
+.questionnaire .say{
+	margin-left: 28%;
+	font-family: 隶书;
+	font-size: 80%;
+}
+.submit{
+	background-color: rgb(0, 162, 232);
+	width: 30%;
+	margin-left: 35%;
+}

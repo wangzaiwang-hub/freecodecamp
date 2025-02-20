@@ -1,0 +1,135 @@
+body{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(90deg,#e66465 0,#e66465 50%, #9198e5 50%,#9198e5 100%);
+}
+nav{
+	width: 100%;
+	position: fixed;
+	border-radius:20px;
+	top: 0%;
+	background-color: aqua;
+}
+.navigation-list{
+	display: flex;
+	margin-left: 80%;
+}
+.navigation-list li{
+	margin: 15px 15px;
+	list-style-type: none;
+}
+.navigation-list li a{
+	font-size: 15px;
+	text-decoration: none;
+}
+.show{
+	margin: 15% auto;
+}
+.Placeholding{
+	height: 8vw;
+}
+.me{
+	width: 100px;
+	height: 120px;
+	border-radius: 10px;
+	margin-left: 46.5%;
+}
+.show h1{
+	width: 100%;
+	height: 30%;
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	font-family: "Lucida Console", Courier, monospace;;
+}
+.show p{
+	width: 100%;
+	height: 20%;
+	font-size: 30px;
+	text-align: center;
+	font-style: italic;
+	color: brown;
+}
+.projects h2{
+	margin-top: 1%;
+	text-align: center;
+	font-size: 28px;
+}
+.projects-list{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 20px 10px;
+}
+.projects-list img{
+	width: 100%;
+	max-width: 350px;
+	height: 280px;
+	object-fit: cover;
+	border-radius: 10px;
+	border: solid;
+	border-color: #00aa00;
+}
+.project{
+	display: grid;
+}
+.project a{
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	background-color: aqua;
+	margin: 5px 0;
+	padding: 3px;
+	border-radius: 5px;
+}
+.contact h2{
+	margin-top: 10%;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+}
+.contact p{
+	width: 100%;
+	height: 20%;
+	font-size: 30px;
+	text-align: center;
+	font-style: italic;
+	color: white;
+}
+.icon{
+	font-size: 25px;
+	color: white;
+	margin-left: 8%;
+}
+.Contact-styles{
+	width: 80%;
+	margin-left: 10%;
+	display: flex;
+	margin-bottom: 10%;
+	/*border-bottom: solid;
+	border-color: aqua;*/
+}
+.Contact-styles a{
+	color: white;
+	text-decoration: none;
+}
+.footer{
+	margin-top: 5%;
+	border-top: solid;
+	border-color: aqua;
+	display: flex;
+}
+.footer p{
+	margin: 5px 8%;
+}
+@media(minwidth:1000){
+.navigation-list{
+	display: flex;
+	margin-left: 65%;
+}
+}

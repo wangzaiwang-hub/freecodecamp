@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1 id="title">鸣潮意见反馈表</h1>
+	<p id="description">请认真填写下面的调查问卷</p>
+	<img src="https://pic.imgdb.cn/item/66c6f9e2d9c307b7e9b3aed0.jpg">
+	<form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+		<fieldset class="questionnaire">
+			<label id="name-label" class="question" for="name">请输入你的昵称：<input type="text" id="name" placeholder="name:"required/ ></label>
+			<label id="tel-label" class="question" for="telephone">请输入你的电话：<input type="tel" id="telephone" placeholder="telephone:"required/></label>
+			<label id="email-label" class="question" for="email">请输入你的邮箱：<input type="email" id="email" placeholder="email:"required/></label>
+			<label id="number-label" class="question" for="age">请输入你的年龄：<input type="number" id="number" placeholder="age:"min="14" max="120"required/ ></label>
+			<label id="address-label" class="question" for="address">请输入你的地址：<input type="text" id="address" placeholder="address:"/ ></label>
+		</fieldset>
+		<fieldset class="questionnaire">
+			<legend class="question"> 选择你的区服：</legend>
+			<label ><input value="0" id="Regional servers" type="radio" name="Regional servers" class="Regional" checked/>官服</label>
+			<label ><input value="10" id="Regional servers" type="radio" name="Regional servers" class="Regional" />渠道服</label>
+		</fieldset>
+		<fieldset class="questionnaire">
+			<legend>你从哪里了解鸣潮的：</legend>
+			<label for="dropdown">
+				<select id="dropdown" name="aware" class="multiple">
+					<option value="">官方</option>
+					<option value="1">抖音</option>
+					<option value="2">微信</option>
+					<option value="3">QQ</option>
+					<option value="4">小红书</option>
+					<option value="5">微博</option>
+				</select>
+			</label>
+		</fieldset>
+		<fieldset class="questionnaire">
+			<legend>你觉得鸣潮在哪些方面还需要优化：</legend>
+			<label class="question"><input value="6" type="checkbox" id="animation" name="animation" class="Regional" checked/>动画剧情</label>
+			<label class="question"><input value="7" type="checkbox" id="fighting" name="fighting" class="Regional" />动作打斗</label>
+			<label class="question"><input value="8" type="checkbox" id="character" name="character" class="Regional" />角色建模</label>
+			<label class="question"><input value="9" type="checkbox" id="challenge" name="challenge" class="Regional" />全息挑战</label>
+		</fieldset>
+		<fieldset class="questionnaire">
+		<label for="say">
+			<legend>你还有什么想跟我们反馈的：</legend>
+			<textarea class="say" id="say" name="say" rows="3" cols="30" placeholder="我还有些想说的..."></textarea>
+		</label>
+		</fieldset>
+		<input id="submit" class="submit" type="submit" value="提交" />
+  </body>
+</html>
